@@ -2,9 +2,6 @@ LeetCode Daily Practice Tracker
 
 This repository is a personal log of my daily LeetCode practice. I'm committed to improving my problem-solving skills by solving coding problems consistently.
 
-Goal:
-To solve at least one LeetCode problem daily and track my progress.
-
 Categories:
 I aim to solve problems from the following categories:
 
