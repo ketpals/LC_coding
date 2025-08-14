@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/LC_git/LC_coding",
-      "program": "f:/LC_git/LC_coding/build/Debug/outDebug",
+      "cwd": "f:/LC_git/LC_coding/Hashing",
+      "program": "f:/LC_git/LC_coding/Hashing/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
