@@ -28,5 +28,9 @@ Node* arr2LL(vector<int>& v){
 int main() {
  vector<int> v = {88,2,3,4};
  Node *y = arr2LL(v);
- cout<<y->data;
+ Node* temp = y;
+ while(temp){
+    cout<<temp->data<<" ";
+    temp = temp->next;
+ }
 }
