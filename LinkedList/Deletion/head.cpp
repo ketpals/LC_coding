@@ -22,6 +22,7 @@ Node* arr2LL(vector<int>& v){
     return head;
 }
  Node* delhead(Node* head){
+    if(head == NULL) return head;
     Node* temp = head;
         head = head->next;
         free(temp);
