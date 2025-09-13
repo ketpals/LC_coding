@@ -33,5 +33,8 @@ int main(){
     vector<int> v = {2,5,6,4};
     Node* head = arr2LL(v);
     Node* temp = delhead(head); // current head = 2 is deleted
-    cout<<temp->data; // new head = 5
+    while(temp){
+        cout<<temp->data<<" "; // new head = 5
+        temp = temp->next;
+    }
 }
