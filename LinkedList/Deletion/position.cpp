@@ -33,10 +33,9 @@ Node* delpos(Node* head, int k) {
     if (head == NULL || len(head) < k) {
         return NULL;
     }
-
+    Node* temp = head;
     // Case 1: Deleting the head node (k = 1)
     if (k == 1) {
-        Node* temp = head;
         head = head->next;
         delete temp; // Use 'delete' for a single object
         return head;
@@ -44,11 +43,10 @@ Node* delpos(Node* head, int k) {
 
     // Case 2: Deleting a node after the head
     int cnt = 1;
-    Node* temp = head;
     Node* prev = NULL;
     while (temp != NULL) {
         if (cnt == k) {
-            prev->next = temp->next;
+            prev->next = prev->next->next;
             delete temp;
             break;
         }
